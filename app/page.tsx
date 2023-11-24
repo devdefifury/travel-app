@@ -1,8 +1,19 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import Camp from '../components/Camp'
+import Guide from '../components/Guide'
+import GetApp from '../components/GetApp'
+import Features from '../components/Features'
 
 const page = () => {
   return (
-    <div>Hello world</div>
+    <>
+    <Hero/>
+    <Camp/>
+    <Guide/>
+    <Features/>
+    <GetApp/>
+    </>
   )
 }
 
